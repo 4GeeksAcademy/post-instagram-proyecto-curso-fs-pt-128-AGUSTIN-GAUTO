@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bitcount+Grid+Single:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{    padding: 0;
+    margin: 0;
+}
+
+.post{
+    width: 600px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-left, .header-rigth{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.header-title{
+    font-size: 10px;
+}
+
+.icono{
+    font-size: 50px;
+
+}
+
+.post-image{
+    width: 600px;
+    height: 400px;
+}
+
+.post-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-iconos{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    font-size: 25px;
+}
+
+.footer-text{
+    margin: 15px;
+    line-height: 1.4;
+}
+
+.footer-text-desc{
+    margin-top: 10px;
+}
+
+.header-title p{
+    font-size: 15px;
+    
+}
+
+
+
